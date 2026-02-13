@@ -12,3 +12,8 @@ to configure build server for spring boot microservice builds.
 ansible-playbook buildsetip.yml -e "springboot=true" -e "awscli=true"
 
 sudo apt install -y ansible
+
+ sudo find / -name "aws"
+
+netstat -tulnp | grep 8080
+netstat -an | grep 8080
