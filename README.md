@@ -7,6 +7,8 @@
 # ANSIBLE ROLES TO SETUP BUILD SERVER FOR SPRINGBOOT AND NODEJS MICROSERVICE
 
 to configure build server for spring boot microservice builds.
+
+
 ansible-playbook buildsetip.yml -e "springboot=true" -e "awscli=true"
 
 sudo apt install -y ansible
