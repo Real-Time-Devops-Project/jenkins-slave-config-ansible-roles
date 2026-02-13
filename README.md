@@ -1,0 +1,1 @@
+# jenkins-slave-config-ansible-roles
