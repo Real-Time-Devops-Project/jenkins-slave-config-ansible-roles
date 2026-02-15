@@ -20,3 +20,13 @@ sudo apt install -y ansible
 netstat -tulnp | grep 8080
 netstat -an | grep 8080
 
+sudo rm -f /usr/bin/aws
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+sudo apt update
+sudo apt install unzip -y
+sudo ./aws/install
+which aws
+aws --version
+
+After That Test IAM Permission
+aws sts get-caller-identity
